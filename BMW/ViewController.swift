@@ -9,9 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController, UIScrollViewDelegate {
-    
-    var myData:String = "1";
-    
     var scrollView: UIScrollView!
     var imageView: UIImageView!
     var btnSeoMyeon : UIButton!
@@ -162,13 +159,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             self.present(popAlert, animated: true, completion: nil);
         }
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "information", let dest = segue.destination as? informationViewController {
-            print(myData);
-            dest.data = myData;
-        }
-        
-    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

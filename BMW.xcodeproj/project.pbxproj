@@ -17,6 +17,18 @@
 		E44CA0D620D1E1E000E1B2D8 /* routeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44CA0D520D1E1E000E1B2D8 /* routeViewController.swift */; };
 		E44CA0D920D1E22000E1B2D8 /* appImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E44CA0D720D1E22000E1B2D8 /* appImage.png */; };
 		E44CA0DA20D1E22000E1B2D8 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = E44CA0D820D1E22000E1B2D8 /* map.png */; };
+		E46A6AE320D28C15002C63C4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A6AE220D28C15002C63C4 /* TableViewController.swift */; };
+		E46A6AE520D29182002C63C4 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46A6AE420D29182002C63C4 /* TableViewController2.swift */; };
+		E46A6AE920D2C1A4002C63C4 /* 계단_left.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AE820D2C1A4002C63C4 /* 계단_left.png */; };
+		E46A6AEB20D2C294002C63C4 /* 계단_right.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AEA20D2C294002C63C4 /* 계단_right.png */; };
+		E46A6AED20D2C3BA002C63C4 /* 엘베_right.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AEC20D2C3BA002C63C4 /* 엘베_right.png */; };
+		E46A6AEF20D2C3C0002C63C4 /* 엘베_left.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AEE20D2C3BF002C63C4 /* 엘베_left.png */; };
+		E46A6AF120D2C81A002C63C4 /* 카페.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF020D2C81A002C63C4 /* 카페.png */; };
+		E46A6AF320D2C822002C63C4 /* 편의점.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF220D2C821002C63C4 /* 편의점.png */; };
+		E46A6AF720D2C82F002C63C4 /* 고객센터.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF620D2C82F002C63C4 /* 고객센터.png */; };
+		E46A6AF920D2CB24002C63C4 /* 화장실.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF820D2CB24002C63C4 /* 화장실.png */; };
+		E4FFEBDA20D2550D006D9FBE /* NangJeong.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4FFEBD820D2550D006D9FBE /* NangJeong.gif */; };
+		E4FFEBDB20D2550D006D9FBE /* SeoMyeon.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4FFEBD920D2550D006D9FBE /* SeoMyeon.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,18 @@
 		E44CA0D520D1E1E000E1B2D8 /* routeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = routeViewController.swift; sourceTree = "<group>"; };
 		E44CA0D720D1E22000E1B2D8 /* appImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appImage.png; sourceTree = "<group>"; };
 		E44CA0D820D1E22000E1B2D8 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		E46A6AE220D28C15002C63C4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E46A6AE420D29182002C63C4 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		E46A6AE820D2C1A4002C63C4 /* 계단_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "계단_left.png"; path = "../../../계단_left.png"; sourceTree = "<group>"; };
+		E46A6AEA20D2C294002C63C4 /* 계단_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "계단_right.png"; sourceTree = "<group>"; };
+		E46A6AEC20D2C3BA002C63C4 /* 엘베_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "엘베_right.png"; sourceTree = "<group>"; };
+		E46A6AEE20D2C3BF002C63C4 /* 엘베_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "엘베_left.png"; sourceTree = "<group>"; };
+		E46A6AF020D2C81A002C63C4 /* 카페.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "카페.png"; sourceTree = "<group>"; };
+		E46A6AF220D2C821002C63C4 /* 편의점.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "편의점.png"; sourceTree = "<group>"; };
+		E46A6AF620D2C82F002C63C4 /* 고객센터.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고객센터.png"; sourceTree = "<group>"; };
+		E46A6AF820D2CB24002C63C4 /* 화장실.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "화장실.png"; path = "../../../화장실.png"; sourceTree = "<group>"; };
+		E4FFEBD820D2550D006D9FBE /* NangJeong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NangJeong.gif; sourceTree = "<group>"; };
+		E4FFEBD920D2550D006D9FBE /* SeoMyeon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SeoMyeon.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +88,18 @@
 		E44CA0BE20D1E10A00E1B2D8 /* BMW */ = {
 			isa = PBXGroup;
 			children = (
+				E46A6AF820D2CB24002C63C4 /* 화장실.png */,
+				E46A6AF020D2C81A002C63C4 /* 카페.png */,
+				E46A6AF620D2C82F002C63C4 /* 고객센터.png */,
+				E46A6AEE20D2C3BF002C63C4 /* 엘베_left.png */,
+				E46A6AF220D2C821002C63C4 /* 편의점.png */,
+				E46A6AEC20D2C3BA002C63C4 /* 엘베_right.png */,
+				E46A6AEA20D2C294002C63C4 /* 계단_right.png */,
+				E46A6AE820D2C1A4002C63C4 /* 계단_left.png */,
 				E44CA0D720D1E22000E1B2D8 /* appImage.png */,
 				E44CA0D820D1E22000E1B2D8 /* map.png */,
+				E4FFEBD820D2550D006D9FBE /* NangJeong.gif */,
+				E4FFEBD920D2550D006D9FBE /* SeoMyeon.gif */,
 				E44CA0BF20D1E10A00E1B2D8 /* AppDelegate.swift */,
 				E44CA0C120D1E10A00E1B2D8 /* ViewController.swift */,
 				E44CA0C320D1E10A00E1B2D8 /* Main.storyboard */,
@@ -75,6 +109,8 @@
 				E44CA0D120D1E1A300E1B2D8 /* informationViewController.swift */,
 				E44CA0D320D1E1D400E1B2D8 /* mapViewController.swift */,
 				E44CA0D520D1E1E000E1B2D8 /* routeViewController.swift */,
+				E46A6AE220D28C15002C63C4 /* TableViewController.swift */,
+				E46A6AE420D29182002C63C4 /* TableViewController2.swift */,
 			);
 			path = BMW;
 			sourceTree = "<group>";
@@ -137,10 +173,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FFEBDA20D2550D006D9FBE /* NangJeong.gif in Resources */,
+				E46A6AF920D2CB24002C63C4 /* 화장실.png in Resources */,
 				E44CA0CA20D1E10F00E1B2D8 /* LaunchScreen.storyboard in Resources */,
+				E46A6AED20D2C3BA002C63C4 /* 엘베_right.png in Resources */,
+				E46A6AE920D2C1A4002C63C4 /* 계단_left.png in Resources */,
 				E44CA0C720D1E10F00E1B2D8 /* Assets.xcassets in Resources */,
 				E44CA0C520D1E10A00E1B2D8 /* Main.storyboard in Resources */,
+				E46A6AF120D2C81A002C63C4 /* 카페.png in Resources */,
+				E4FFEBDB20D2550D006D9FBE /* SeoMyeon.gif in Resources */,
+				E46A6AF320D2C822002C63C4 /* 편의점.png in Resources */,
+				E46A6AEF20D2C3C0002C63C4 /* 엘베_left.png in Resources */,
+				E46A6AEB20D2C294002C63C4 /* 계단_right.png in Resources */,
 				E44CA0D920D1E22000E1B2D8 /* appImage.png in Resources */,
+				E46A6AF720D2C82F002C63C4 /* 고객센터.png in Resources */,
 				E44CA0DA20D1E22000E1B2D8 /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E44CA0C220D1E10A00E1B2D8 /* ViewController.swift in Sources */,
+				E46A6AE320D28C15002C63C4 /* TableViewController.swift in Sources */,
 				E44CA0C020D1E10A00E1B2D8 /* AppDelegate.swift in Sources */,
+				E46A6AE520D29182002C63C4 /* TableViewController2.swift in Sources */,
 				E44CA0D220D1E1A300E1B2D8 /* informationViewController.swift in Sources */,
 				E44CA0D420D1E1D400E1B2D8 /* mapViewController.swift in Sources */,
 				E44CA0D620D1E1E000E1B2D8 /* routeViewController.swift in Sources */,

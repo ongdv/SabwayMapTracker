@@ -9,28 +9,18 @@
 import UIKit
 
 class informationViewController: UIViewController {
-    var txtMiddleValue: UITextField!
-    var scrollView :UIScrollView!
-    var data: String? = "1";
-    
+    var txtStation: UITextField!
+    var middleText: String = "";
     override func viewDidLoad() {
         super.viewDidLoad()
         //네비게이션 바 표시, title 표시(역 이름)
         self.navigationController?.isNavigationBarHidden = false;
-        self.navigationController?.title = data;
+        self.navigationController?.title = middleText;
         
-        //스크롤뷰 디자인
-        scrollView = UIScrollView(frame: CGRect(origin: CGPoint.zero, size: view.bounds.size));
-        scrollView.backgroundColor = UIColor.red;
-        self.view.addSubview(scrollView);
+        //뷰 디자인
         
         
-        txtMiddleValue = UITextField(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: view.frame.width, height:50)));
-        txtMiddleValue?.text = "12345";
-        txtMiddleValue?.backgroundColor = UIColor.blue;
-        scrollView.addSubview(txtMiddleValue)
-        
-        
+    
         // Do any additional setup after loading the view.
     }
     
@@ -40,6 +30,7 @@ class informationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
 
     /*
     // MARK: - Navigation

@@ -7,12 +7,13 @@
 //
 
 import UIKit
-
+var detailItem = ["편의점 1개", "화장실 1개", "고객센터 1개", "의류 14개", "화장품 20개"];
 class TableViewController2: UITableViewController {
-
+    @IBOutlet var tvItemList: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -29,23 +30,20 @@ class TableViewController2: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1;
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return items.count;
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
+        let cell = tableView.dequeueReusableCell(withIdentifier: "mycell", for: indexPath)
+        cell.textLabel?.text = detailItem[(indexPath as NSIndexPath).row];
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
