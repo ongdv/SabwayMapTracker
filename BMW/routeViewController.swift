@@ -53,7 +53,7 @@ class routeViewController: UIViewController {
         btnMiddle.isHidden = false;
         btnRight.isHidden = false;
         imgView.image = UIImage(named: "SeoMyeon.gif");
-        imgView2.image = UIImage(named: "map.png")
+        imgView2.image = UIImage(named: "map1.png")
     }
     
     @IBAction func btn2(_ sender: UIButton) {
@@ -64,7 +64,7 @@ class routeViewController: UIViewController {
         btnMiddle.isHidden = false;
         btnRight.isHidden = false;
         imgView.image = UIImage(named: "SeoMyeon.gif");
-        imgView2.image = UIImage(named: "map.png")
+        imgView2.image = UIImage(named: "map1.png")
     }
     @IBAction func btnLeftClick(_ sender: UIButton) {
         if(selectRide == "stair"){

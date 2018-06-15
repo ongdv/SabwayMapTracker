@@ -27,6 +27,7 @@
 		E46A6AF320D2C822002C63C4 /* 편의점.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF220D2C821002C63C4 /* 편의점.png */; };
 		E46A6AF720D2C82F002C63C4 /* 고객센터.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF620D2C82F002C63C4 /* 고객센터.png */; };
 		E46A6AF920D2CB24002C63C4 /* 화장실.png in Resources */ = {isa = PBXBuildFile; fileRef = E46A6AF820D2CB24002C63C4 /* 화장실.png */; };
+		E4899F9920D3459E007EF4F3 /* map1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4899F9820D3459D007EF4F3 /* map1.png */; };
 		E4FFEBDA20D2550D006D9FBE /* NangJeong.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4FFEBD820D2550D006D9FBE /* NangJeong.gif */; };
 		E4FFEBDB20D2550D006D9FBE /* SeoMyeon.gif in Resources */ = {isa = PBXBuildFile; fileRef = E4FFEBD920D2550D006D9FBE /* SeoMyeon.gif */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		E46A6AF220D2C821002C63C4 /* 편의점.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "편의점.png"; sourceTree = "<group>"; };
 		E46A6AF620D2C82F002C63C4 /* 고객센터.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "고객센터.png"; sourceTree = "<group>"; };
 		E46A6AF820D2CB24002C63C4 /* 화장실.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "화장실.png"; path = "../../../화장실.png"; sourceTree = "<group>"; };
+		E4899F9820D3459D007EF4F3 /* map1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map1.png; sourceTree = "<group>"; };
 		E4FFEBD820D2550D006D9FBE /* NangJeong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NangJeong.gif; sourceTree = "<group>"; };
 		E4FFEBD920D2550D006D9FBE /* SeoMyeon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SeoMyeon.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 				E46A6AF620D2C82F002C63C4 /* 고객센터.png */,
 				E46A6AEE20D2C3BF002C63C4 /* 엘베_left.png */,
 				E46A6AF220D2C821002C63C4 /* 편의점.png */,
+				E4899F9820D3459D007EF4F3 /* map1.png */,
 				E46A6AEC20D2C3BA002C63C4 /* 엘베_right.png */,
 				E46A6AEA20D2C294002C63C4 /* 계단_right.png */,
 				E46A6AE820D2C1A4002C63C4 /* 계단_left.png */,
@@ -183,6 +186,7 @@
 				E46A6AF120D2C81A002C63C4 /* 카페.png in Resources */,
 				E4FFEBDB20D2550D006D9FBE /* SeoMyeon.gif in Resources */,
 				E46A6AF320D2C822002C63C4 /* 편의점.png in Resources */,
+				E4899F9920D3459E007EF4F3 /* map1.png in Resources */,
 				E46A6AEF20D2C3C0002C63C4 /* 엘베_left.png in Resources */,
 				E46A6AEB20D2C294002C63C4 /* 계단_right.png in Resources */,
 				E44CA0D920D1E22000E1B2D8 /* appImage.png in Resources */,
